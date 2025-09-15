@@ -1,0 +1,169 @@
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+/* Reset básico e estilos gerais */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202020; /* Fundo cinza escuro */
+    color: #f5f5dc; /* Cor bege claro para o texto */
+    font-family: 'Cabin', sans-serif; /* Fonte mais legível para o corpo do texto */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+    padding: 2rem; /* Adiciona espaço nas laterais da página */
+}
+
+/* Estilização dos títulos */
+h1, h2, h3 {
+    font-family: 'Noto Sans Mono', monospace; /* Fonte monoespaçada para os títulos */
+    text-align: center;
+    padding: 1rem;
+    color: #e0ac23; /* Cor amarela para os títulos */
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding-top: 2.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
+    color: #f5f5dc; /* Mantém a cor do texto para subtítulos */
+}
+
+/* Estilo para os parágrafos */
+p {
+    padding: 1rem 0;
+    text-align: justify; /* Justifica o texto para um visual mais limpo */
+    max-width: 800px; /* Limita a largura do parágrafo para não ficar muito longo */
+    margin: 0 auto; /* Centraliza o parágrafo na página */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centraliza o container */
+    gap: 1rem; /* Adiciona um espaço entre as imagens */
+    margin: 2rem auto;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para uma nova linha em telas menores */
+    max-width: 1000px;
+}
+
+/* Estilo para as imagens dentro do container */
+.image-container img {
+    max-width: 48%; /* Define a largura máxima de cada imagem */
+    height: auto; /* Mantém a proporção original */
+    border: 2px solid #e0ac23; /* Adiciona uma borda amarela */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
+.berlim img{
+    display: flex;
+    justify-content: center; /* Centraliza o container */
+    gap: 1rem; /* Adiciona um espaço entre as imagens */
+    margin: 2rem auto;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para uma nova linha em telas menores */
+    max-width: 1000px;
+    max-width: 48%; /* Define a largura máxima de cada imagem */
+    height: auto; /* Mantém a proporção original */
+    border: 2px solid #e0ac23; /* Adiciona uma borda amarela */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
+.Hitler img{
+    display: flex;
+    justify-content: center; /* Centraliza o container */
+    gap: 1rem; /* Adiciona um espaço entre as imagens */
+    margin: 2rem auto;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para uma nova linha em telas menores */
+    max-width: 1000px;
+    max-width: 48%; /* Define a largura máxima de cada imagem */
+    height: auto; /* Mantém a proporção original */
+    border: 2px solid #e0ac23; /* Adiciona uma borda amarela */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
+/* ... mantenha o restante do seu código CSS ... */
+
+/* Flexbox para alinhar os blocos de conteúdo */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #2b2b2b; /* Fundo levemente mais claro para os blocos */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+}
+
+.image {
+    display: flex;
+    justify-content: center; /* Centraliza o container */
+    gap: 1rem; /* Adiciona um espaço entre as imagens */
+    margin: 2rem auto;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para uma nova linha em telas menores */
+    max-width: 1000px;
+}
+
+/* Estilo para as imagens dentro do container */
+.image img {
+    max-width: 48%; /* Define a largura máxima de cada imagem */
+    height: auto; /* Mantém a proporção original */
+    border: 2px solid #e0ac23; /* Adiciona uma borda amarela */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
+.japao img{
+    display: flex;
+    justify-content: center; /* Centraliza o container */
+    gap: 1rem; /* Adiciona um espaço entre as imagens */
+    margin: 2rem auto;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para uma nova linha em telas menores */
+    max-width: 1000px;
+    max-width: 48%; /* Define a largura máxima de cada imagem */
+    height: auto; /* Mantém a proporção original */
+    border: 2px solid #e0ac23; /* Adiciona uma borda amarela */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
+.hiroshima img{
+    display: flex;
+    justify-content: center; /* Centraliza o container */
+    gap: 1rem; /* Adiciona um espaço entre as imagens */
+    margin: 2rem auto;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para uma nova linha em telas menores */
+    max-width: 1000px;
+    max-width: 48%; /* Define a largura máxima de cada imagem */
+    height: auto; /* Mantém a proporção original */
+    border: 2px solid #e0ac23; /* Adiciona uma borda amarela */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
+
+/* Estilo específico para as sections */
+section {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #1a1a1a;
+    padding: 2rem 0;
+}
